@@ -1,68 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dr. Sai Pradeep Chakka</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      margin-top: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      color: #111827;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
+<body>
 
-<header class="bg-indigo-800 text-white py-8">
-  <div class="max-w-6xl mx-auto text-center">
-    <h1 class="text-4xl font-bold">Dr. Sai Pradeep Chakka</h1>
-    <p class="mt-2 text-lg">AI Researcher | Algorithm Expert | Speaker | Technologist</p>
-    <div class="mt-4 space-x-4">
-      <a href="mailto:saipradeep.chakka@outlook.com" class="underline hover:text-indigo-200">Email</a>
-      <a href="https://www.linkedin.com/in/sai-pradeep-chakka/" class="underline hover:text-indigo-200">LinkedIn</a>
-      <a href="https://scholar.google.com" class="underline hover:text-indigo-200">Google Scholar</a>
-    </div>
-  </div>
+<header>
+  <h1>Dr. Sai Pradeep Chakka</h1>
+  <p>AI Researcher | Algorithm Expert | Speaker | Technologist</p>
+  <p>
+    <a href="mailto:saipradeep.chakka@outlook.com">Email</a> |
+    <a href="https://www.linkedin.com/in/sai-pradeep-chakka/">LinkedIn</a> |
+    <a href="https://scholar.google.com">Google Scholar</a>
+  </p>
 </header>
 
-<main class="max-w-4xl mx-auto px-4 py-8">
+<section>
+  <h2>About Me</h2>
+  <p>With over 8 years of industry and academic experience in Artificial Intelligence, I currently lead a multidisciplinary team working on GenAI, NLP, CV, TinyML, and Knowledge Graphs. My work is documented in 20+ peer-reviewed publications and recognized at global conferences such as ECCV, ISBI, and ICASSP.</p>
+</section>
 
-  <section class="mb-10">
-    <h2 class="text-2xl font-semibold text-indigo-700 mb-2">About Me</h2>
-    <p class="text-gray-700">I bring over 8 years of research and industry experience in Artificial Intelligence. Currently leading a diverse team, I work on state-of-the-art technologies including GenAI, NLP, CV, TinyML, and Knowledge Graphs. I have published 20+ papers and presented at top-tier conferences such as ECCV, ISBI, and ICASSP.</p>
-  </section>
+<section>
+  <h2>Selected Projects</h2>
+  <ul>
+    <li><strong>Wafer Defect Classification:</strong> Spatiotemporal GNNs with XAI for root-cause analysis.</li>
+    <li><strong>Driver Monitoring System:</strong> Real-time action recognition and 3D geometry analysis.</li>
+    <li><strong>Generative AI:</strong> Table detection, image-to-excel conversion using diffusion models and RAG.</li>
+    <li><strong>Surgical Video Analysis:</strong> Temporal gesture segmentation and skill assessment.</li>
+  </ul>
+</section>
 
-  <section class="mb-10">
-    <h2 class="text-2xl font-semibold text-indigo-700 mb-2">Key Projects</h2>
-    <ul class="list-disc list-inside space-y-2 text-gray-700">
-      <li><strong>Wafer Defect Classification:</strong> Spatiotemporal GNNs with XAI for root-cause analysis.</li>
-      <li><strong>Driver Monitoring System:</strong> Real-time action recognition and 3D geometry analysis.</li>
-      <li><strong>Generative AI:</strong> Table detection, image-to-excel conversion using diffusion models and RAG.</li>
-      <li><strong>Surgical Video Analysis:</strong> Temporal gesture segmentation and skill assessment.</li>
-    </ul>
-  </section>
+<section>
+  <h2>Talks & Recognition</h2>
+  <ul>
+    <li>Invited Speaker at IIT Kharagpur – UpSkill:EnMed 2023</li>
+    <li>Gold Medalist – M.Tech. in Communication & Signal Processing</li>
+    <li>Reviewer – IJCNN, ICVGIP, Elsevier ESWA</li>
+  </ul>
+</section>
 
-  <section class="mb-10">
-    <h2 class="text-2xl font-semibold text-indigo-700 mb-2">Talks & Recognition</h2>
-    <ul class="list-disc list-inside space-y-2 text-gray-700">
-      <li>Invited Speaker at IIT Kharagpur – UpSkill:EnMed 2023</li>
-      <li>Gold Medalist – M.Tech. in Communication & Signal Processing</li>
-      <li>Reviewer – IJCNN, ICVGIP, Elsevier ESWA</li>
-    </ul>
-  </section>
+<section>
+  <h2>Publications</h2>
+  <p>View all my papers on <a href="https://scholar.google.com">Google Scholar</a>.</p>
+</section>
 
-  <section class="mb-10">
-    <h2 class="text-2xl font-semibold text-indigo-700 mb-2">Publications</h2>
-    <p class="text-gray-700">View all my publications on <a href="https://scholar.google.com" class="text-indigo-600 hover:underline">Google Scholar</a>.</p>
-  </section>
-
-  <section>
-    <h2 class="text-2xl font-semibold text-indigo-700 mb-2">Contact</h2>
-    <p class="text-gray-700">📧 saipradeep.chakka@outlook.com</p>
-    <p class="text-gray-700">📍 Bengaluru, India</p>
-  </section>
-
-</main>
-
-<footer class="bg-gray-200 text-center py-4 mt-10">
-  <p class="text-gray-600 text-sm">&copy; 2025 Dr. Sai Pradeep Chakka</p>
-</footer>
+<section>
+  <h2>Contact</h2>
+  <p>📧 saipradeep.chakka@outlook.com</p>
+  <p>📍 Bengaluru, India</p>
+</section>
 
 </body>
 </html>
+
